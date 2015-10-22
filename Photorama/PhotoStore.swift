@@ -46,6 +46,14 @@ class PhotoStore {
     }
  
     func fetchImageForPhoto(photo: Photo, completion: (ImageResult) -> Void) {
+
+        // Check for cached image
+        if let image = photo.image {
+            completion(.Success(image))
+            return
+        }
+        
+        // Download image
         let photoURL = photo.remoteURL
         let request = NSURLRequest(URL: photoURL)
         
