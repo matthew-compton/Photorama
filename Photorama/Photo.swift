@@ -7,26 +7,21 @@
 //
 
 import UIKit
+import CoreData
 
-class Photo {
-    
-    let title: String
-    let remoteURL: NSURL
-    let photoID: String
-    let dateTaken: NSDate
+class Photo: NSManagedObject {
+
+// Insert code here to add functionality to your managed object subclass
+
     var image: UIImage?
-    
-    init(title: String, photoID: String, remoteURL: NSURL, dateTaken: NSDate) {
-        self.title = title
-        self.photoID = photoID
-        self.remoteURL = remoteURL
-        self.dateTaken = dateTaken
+
+    override func awakeFromInsert() {
+        super.awakeFromInsert()
+        title = ""
+        photoID = ""
+        remoteURL = NSURL()
+        photoKey = NSUUID().UUIDString
+        dateTaken = NSDate()
     }
- 
-}
-
-extension Photo: Equatable {}
-
-func == (lhs: Photo, rhs: Photo) -> Bool {
-    return lhs.photoID == rhs.photoID
+    
 }
