@@ -15,6 +15,8 @@
 		F921A3741BD97FFD00902B0F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F921A3721BD97FFD00902B0F /* Photo.swift */; settings = {ASSET_TAGS = (); }; };
 		F921A3761BD980C400902B0F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F921A3751BD980C400902B0F /* CoreDataStack.swift */; settings = {ASSET_TAGS = (); }; };
 		F921A37A1BD989F300902B0F /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F921A3791BD989F300902B0F /* ImageStore.swift */; settings = {ASSET_TAGS = (); }; };
+		F921A37C1BD98D9300902B0F /* TagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F921A37B1BD98D9300902B0F /* TagsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F921A37E1BD98DE800902B0F /* TagDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F921A37D1BD98DE800902B0F /* TagDataSource.swift */; settings = {ASSET_TAGS = (); }; };
 		F974EC5D1BD924760056FC1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F974EC5C1BD924760056FC1E /* AppDelegate.swift */; };
 		F974EC621BD924760056FC1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F974EC601BD924760056FC1E /* Main.storyboard */; };
 		F974EC641BD924760056FC1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F974EC631BD924760056FC1E /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 		F921A3721BD97FFD00902B0F /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		F921A3751BD980C400902B0F /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		F921A3791BD989F300902B0F /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		F921A37B1BD98D9300902B0F /* TagsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsViewController.swift; sourceTree = "<group>"; };
+		F921A37D1BD98DE800902B0F /* TagDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagDataSource.swift; sourceTree = "<group>"; };
 		F974EC591BD924760056FC1E /* Photorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F974EC5C1BD924760056FC1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F974EC611BD924760056FC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				F974EC6E1BD924870056FC1E /* PhotosViewController.swift */,
 				F921A36E1BD97EC200902B0F /* Photorama.xcdatamodeld */,
 				F974EC601BD924760056FC1E /* Main.storyboard */,
+				F921A37B1BD98D9300902B0F /* TagsViewController.swift */,
+				F921A37D1BD98DE800902B0F /* TagDataSource.swift */,
 				F921A36A1BD95D4300902B0F /* PhotoCollectionViewCell.swift */,
 				F921A3711BD97FFD00902B0F /* Photo+CoreDataProperties.swift */,
 				F921A3721BD97FFD00902B0F /* Photo.swift */,
@@ -171,10 +177,12 @@
 				F974EC731BD929650056FC1E /* PhotoStore.swift in Sources */,
 				F921A3741BD97FFD00902B0F /* Photo.swift in Sources */,
 				F921A3691BD9583700902B0F /* PhotoDataSource.swift in Sources */,
+				F921A37C1BD98D9300902B0F /* TagsViewController.swift in Sources */,
 				F921A3761BD980C400902B0F /* CoreDataStack.swift in Sources */,
 				F921A37A1BD989F300902B0F /* ImageStore.swift in Sources */,
 				F921A36B1BD95D4300902B0F /* PhotoCollectionViewCell.swift in Sources */,
 				F921A3731BD97FFD00902B0F /* Photo+CoreDataProperties.swift in Sources */,
+				F921A37E1BD98DE800902B0F /* TagDataSource.swift in Sources */,
 				F921A36D1BD9662400902B0F /* PhotoInfoViewController.swift in Sources */,
 				F974EC5D1BD924760056FC1E /* AppDelegate.swift in Sources */,
 			);
